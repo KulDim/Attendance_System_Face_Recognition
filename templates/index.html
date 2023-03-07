@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <script src="{{ url_for('static',filename='js/chart.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Attendance System Face Recognition</div>
+    </div>
+    <div class="content">
+        <canvas id="myChart" width="600" height="400"></canvas>
+    </div>
+
+
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+</body>
+</html>
